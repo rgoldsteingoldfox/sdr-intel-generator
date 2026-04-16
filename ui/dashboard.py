@@ -14,7 +14,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
-from config import LATEST_JSON
+from config import LATEST_JSON, OUTPUT_DIR
+from modules.slug import slugify
 
 st.set_page_config(
     page_title="SDR Pipeline",
@@ -25,11 +26,42 @@ st.set_page_config(
 
 
 # ── Data helpers ────────────────────────────────────────────────────────────
+def list_companies():
+    """Return list of (slug, display_name) tuples for every saved report."""
+    items = []
+    for f in sorted(OUTPUT_DIR.glob("*.json")):
+        if f.name == "latest_report.json":
+            continue
+        try:
+            data = json.loads(f.read_text())
+            name = data.get("meta", {}).get("company", f.stem)
+            items.append((f.stem, name))
+        except Exception:
+            continue
+    return items
+
+
 def load():
-    if not LATEST_JSON.exists():
-        st.error("No report yet. Run:  python3 main.py <company> --icp-file <file>")
-        st.stop()
-    return json.loads(LATEST_JSON.read_text())
+    """Load a company's report based on ?company=<slug> URL param, else latest."""
+    params = st.query_params
+    slug = params.get("company", "")
+    if isinstance(slug, list):
+        slug = slug[0] if slug else ""
+    slug = (slug or "").strip().lower()
+
+    if slug:
+        target = OUTPUT_DIR / f"{slug}.json"
+        if target.exists():
+            return json.loads(target.read_text()), slug
+
+    if LATEST_JSON.exists():
+        return json.loads(LATEST_JSON.read_text()), ""
+
+    st.error("No report yet. Run:  python3 main.py <company> --icp-file <file>")
+    st.stop()
+
+
+report, active_slug = load()
 
 
 def priority_score(acc: dict, idx: int) -> int:
@@ -55,7 +87,6 @@ def one_line(txt: str, max_chars: int = 80) -> str:
     return txt[: max_chars - 1].rstrip() + "…" if len(txt) > max_chars else txt
 
 
-report   = load()
 meta     = report.get("meta", {})
 accounts = report.get("accounts", [])
 triggers = {t.get("account"): t for t in report.get("triggers", [])}
@@ -153,6 +184,22 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+
+# ── Company switcher (only shown if multiple dashboards exist) ─────────────
+_all_companies = list_companies()
+if len(_all_companies) > 1:
+    links = " · ".join(
+        (f"<b>{name}</b>" if slug == active_slug or (not active_slug and name == company) else
+         f"<a href='?company={slug}' target='_self' style='color:#94a3b8; text-decoration:none;'>{name}</a>")
+        for slug, name in _all_companies
+    )
+    st.markdown(
+        f"<div style='font-size:0.78rem; color:#64748b; margin-bottom:12px;'>"
+        f"<span style='text-transform:uppercase; letter-spacing:0.12em; margin-right:8px;'>Dashboards:</span>"
+        f"{links}</div>",
+        unsafe_allow_html=True,
+    )
 
 
 # ── HEADER ──────────────────────────────────────────────────────────────────

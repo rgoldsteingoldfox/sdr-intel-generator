@@ -20,8 +20,9 @@ import argparse
 from datetime import datetime
 from pathlib import Path
 
-from config import LATEST_JSON
+from config import LATEST_JSON, OUTPUT_DIR
 from modules import company, accounts, triggers, outreach, strategy
+from modules.slug import slugify
 
 
 def run(company_name: str, role: str, description: str = "", icp_file: str = "") -> dict:
@@ -60,8 +61,14 @@ def run(company_name: str, role: str, description: str = "", icp_file: str = "")
         "strategy": strat,
     }
 
+    # Save per-company snapshot (e.g. output/ontic.json) + keep latest_report.json
+    # as the default fallback for the dashboard.
+    slug = slugify(company_name)
+    per_company_path = OUTPUT_DIR / f"{slug}.json"
+    per_company_path.write_text(json.dumps(report, indent=2))
     LATEST_JSON.write_text(json.dumps(report, indent=2))
-    print(f"\n✓ {LATEST_JSON}")
+    print(f"\n✓ {per_company_path}")
+    print(f"  ?company={slug}  (use as URL param on the Streamlit dashboard)")
     return report
 
 
