@@ -1,0 +1,26 @@
+IDEAL FORMAT for each account card.
+Each card = 3 short lines. 8–12 words per line.
+
+Example:
+
+  Walmart Inc. · Retail · Bentonville, AR · Priority 9 (High likelihood to engage)
+  🚨 ORC rings coordinating across 3 regional districts
+  ⏰ Regional leads can't correlate, corporate security blind
+  🎯 5,000 stores need centralized incident correlation now
+
+Another example:
+
+  Toyota Manufacturing · Automotive · Plano, TX · Priority 9 (High likelihood to engage)
+  🚨 Workplace violence incident at Kentucky plant, 60+ sites in dark
+  ⏰ Plant leaders demanding real-time safety visibility across all facilities
+  🎯 Distributed security teams need unified threat feed immediately
+
+NOT like this:
+
+  🚨 Toyota's organized retail crime correlation workflows are currently facing challenges because the data ingestion pipelines aren't unified, which means that... (TOO LONG, TECHNICAL)
+
+Rules:
+- Each line is one short concrete statement
+- Name real facts (dollar amounts, site counts, city names)
+- No hedging words
+- No paragraphs

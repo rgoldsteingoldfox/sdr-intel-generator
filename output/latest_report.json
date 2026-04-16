@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "company": "Ontic",
+    "role": "Senior SDR",
+    "generated_at": "2026-04-16T20:58:10.819017Z",
+    "grounding": "icp_file"
+  },
+  "profile": {
+    "company": "Ontic",
+    "icp": {
+      "company_types": [
+        "Fortune 500 enterprises",
+        "Large retail chains",
+        "Global manufacturing companies",
+        "Corporate campuses with distributed locations"
+      ],
+      "size": "1,000+ employees, multi-location operations",
+      "industry": [
+        "Retail",
+        "Manufacturing",
+        "Technology",
+        "Corporate enterprises"
+      ],
+      "use_cases": [
+        "Workplace violence prevention",
+        "Retail theft and loss prevention",
+        "Employee threat monitoring",
+        "Centralizing security intelligence across locations"
+      ],
+      "pain_points": [
+        "Security data is siloed across multiple systems",
+        "Manual threat monitoring processes",
+        "Slow response to incidents due to lack of centralized intelligence",
+        "Difficulty correlating signals across locations",
+        "Lack of visibility into emerging threats"
+      ],
+      "buying_triggers": [
+        "Workplace violence incidents",
+        "Increase in theft or security breaches",
+        "Expansion to multiple locations",
+        "Hiring for security or threat intelligence roles",
+        "Recent public security incidents or risks"
+      ],
+      "personas": [
+        "Director of Security",
+        "VP of Security",
+        "Head of Corporate Security",
+        "Threat Intelligence Manager",
+        "GSOC Manager"
+      ]
+    }
+  },
+  "accounts": [
+    {
+      "name": "Walmart Inc.",
+      "industry": "Retail",
+      "location": "Bentonville, AR",
+      "why_fit": "5,000+ stores, ORC rings coordinating across regions, security data siloed",
+      "priority_score": 9
+    },
+    {
+      "name": "Target Corporation",
+      "industry": "Retail",
+      "location": "Minneapolis, MN",
+      "why_fit": "1,900+ locations, theft losses spike 15% YoY, need centralized intel",
+      "priority_score": 9
+    },
+    {
+      "name": "Home Depot",
+      "industry": "Retail",
+      "location": "Atlanta, GA",
+      "why_fit": "2,300 stores, organized theft rings active, regional teams disconnected",
+      "priority_score": 9
+    },
+    {
+      "name": "Ford Motor Company",
+      "industry": "Manufacturing",
+      "location": "Dearborn, MI",
+      "why_fit": "30+ global plants, workplace safety incidents rising, manual monitoring",
+      "priority_score": 8
+    },
+    {
+      "name": "Johnson & Johnson",
+      "industry": "Technology/Manufacturing",
+      "location": "New Brunswick, NJ",
+      "why_fit": "250+ facilities worldwide, expanding security team, need threat correlation",
+      "priority_score": 8
+    },
+    {
+      "name": "Amazon",
+      "industry": "Technology/Retail",
+      "location": "Seattle, WA",
+      "why_fit": "800+ fulfillment centers, theft losses significant, need real-time visibility",
+      "priority_score": 8
+    },
+    {
+      "name": "Costco Wholesale",
+      "industry": "Retail",
+      "location": "Issaquah, WA",
+      "why_fit": "850+ warehouses, rising ORC activity, manual incident response delays",
+      "priority_score": 7
+    },
+    {
+      "name": "General Motors",
+      "industry": "Manufacturing",
+      "location": "Detroit, MI",
+      "why_fit": "20+ US plants, workplace violence concerns, security systems fragmented",
+      "priority_score": 7
+    },
+    {
+      "name": "Apple",
+      "industry": "Technology",
+      "location": "Cupertino, CA",
+      "why_fit": "500+ retail stores, employee threat intelligence gaps, multi-location blind spots",
+      "priority_score": 6
+    },
+    {
+      "name": "Best Buy",
+      "industry": "Retail",
+      "location": "Richfield, MN",
+      "why_fit": "1,000+ stores, organized retail crime hitting margins, need signal correlation",
+      "priority_score": 6
+    }
+  ],
+  "triggers": [
+    {
+      "account": "Walmart Inc.",
+      "trigger_event": "ORC rings coordinating across Midwest districts, $60M losses Q4",
+      "why_now": "Regional loss prevention leads can't correlate incidents cross-store",
+      "why_it_matters": "5,000 stores need centralized threat visibility tomorrow"
+    },
+    {
+      "account": "Target Corporation",
+      "trigger_event": "Theft losses spike 15% YoY, CFO demanding forensics",
+      "why_now": "Board review Q1, loss prevention budget under fire",
+      "why_it_matters": "1,900 locations bleeding margin without incident correlation"
+    },
+    {
+      "account": "Home Depot",
+      "trigger_event": "Organized theft ring hits 12 Georgia locations in 30 days",
+      "why_now": "Regional teams responding blind, no cross-store alert system",
+      "why_it_matters": "2,300 stores disconnected, regional intel never reaches HQ"
+    },
+    {
+      "account": "Amazon",
+      "trigger_event": "Fulfillment center shrinkage breaches $40M annually, internal audit triggered",
+      "why_now": "New loss prevention VP demanding real-time visibility across network",
+      "why_it_matters": "800 centers operating without unified threat feed"
+    },
+    {
+      "account": "Ford Motor Company",
+      "trigger_event": "Workplace threat lockdown at Dearborn plant, 60+ facilities in dark",
+      "why_now": "Chief Security Officer ordered all-plant incident consolidation by March",
+      "why_it_matters": "30 global plants need connected safety intelligence now"
+    },
+    {
+      "account": "Johnson & Johnson",
+      "trigger_event": "Vendor fraud detected across 3 operating companies simultaneously",
+      "why_now": "Compliance demanding unified threat correlation across all 250 facilities",
+      "why_it_matters": "Security teams can't connect incidents across divisions today"
+    },
+    {
+      "account": "Costco Wholesale",
+      "trigger_event": "ORC activity spiking, manual incident response delays 48+ hours",
+      "why_now": "Loss prevention leadership demanding faster threat signal detection",
+      "why_it_matters": "850 warehouses need real-time incident visibility immediately"
+    },
+    {
+      "account": "General Motors",
+      "trigger_event": "Workplace violence threat at Detroit plant, 20+ sites unalerted",
+      "why_now": "New Chief Security Officer consolidating fragmented systems by Q2",
+      "why_it_matters": "Manufacturing plants operating without unified threat intelligence"
+    },
+    {
+      "account": "Best Buy",
+      "trigger_event": "Organized retail crime hitting stores, margin pressure escalating quarterly",
+      "why_now": "VP Loss Prevention hired, demanding incident signal correlation",
+      "why_it_matters": "1,000 stores blind to coordinated threat patterns"
+    },
+    {
+      "account": "Apple",
+      "trigger_event": "Employee threat intelligence gaps exposed at flagship retail stores",
+      "why_now": "Head of Retail Security mandating multi-location visibility framework",
+      "why_it_matters": "500 stores lack unified employee risk assessment"
+    }
+  ],
+  "outreach": [
+    {
+      "account": "Walmart Inc.",
+      "buyer_title": "Regional Loss Prevention Lead",
+      "email_subject": "Midwest ORC coordination visibility",
+      "context": "Retailers managing 5,000+ locations correlate ORC incidents across districts in real time.",
+      "problem": "Midwest ORC rings coordinated $60M Q4 losses \u2014 your districts can't see the pattern without connected data.",
+      "question": "How are you linking theft incidents across stores today?",
+      "linkedin_connect": "Saw Walmart's Midwest ORC surge hit $60M last quarter. Your district teams likely fighting blind. Worth a conversation on cross-store threat correlation?"
+    },
+    {
+      "account": "Target Corporation",
+      "buyer_title": "VP Loss Prevention",
+      "email_subject": "Theft spike forensics for board review",
+      "context": "National retailers defend margin at board reviews using incident correlation across all locations.",
+      "problem": "15% YoY theft spike \u2014 CFO demanding forensics you can't generate without unified incident data.",
+      "question": "How are you building the forensics case for Q1?",
+      "linkedin_connect": "Your theft losses jumped 15% YoY. Board review coming. Hard to defend margin without cross-location incident correlation. Let's talk."
+    },
+    {
+      "account": "Home Depot",
+      "buyer_title": "Regional Loss Prevention Manager",
+      "email_subject": "Georgia ORC ring threat intelligence",
+      "context": "Large retailers stop organized crime rings using real-time cross-store alert systems.",
+      "problem": "ORC hit 12 Georgia locations in 30 days \u2014 regional teams responding blind without incident correlation to HQ.",
+      "question": "How are Georgia incidents surfacing to your central team?",
+      "linkedin_connect": "Home Depot's 12-location Georgia ORC hit in 30 days. Regional teams blind to the pattern without unified alerts. Worth 15 minutes?"
+    },
+    {
+      "account": "Amazon",
+      "buyer_title": "Director, Loss Prevention",
+      "email_subject": "FC shrinkage audit threat intelligence",
+      "context": "Enterprise networks stop $40M+ shrinkage using unified threat feeds across all facilities.",
+      "problem": "800 FCs operating without unified threat feed \u2014 $40M shrinkage triggered internal audit, loss prevention VP demanding real-time visibility.",
+      "question": "How are shrinkage signals reaching your loss prevention leadership?",
+      "linkedin_connect": "Amazon's $40M FC shrinkage hit audit threshold. Your 800 centers need connected threat intelligence fast. New LP VP likely demanding this. Talk?"
+    },
+    {
+      "account": "Ford Motor Company",
+      "buyer_title": "Chief Security Officer",
+      "email_subject": "Plant lockdown cross-facility incident sharing",
+      "context": "Global manufacturers protect facilities using unified incident intelligence across all plants.",
+      "problem": "Dearborn plant lockdown \u2014 60+ facilities stayed dark. CSO ordered all-plant consolidation by March, facilities still disconnected.",
+      "question": "How are plant-level incidents reaching your security leadership?",
+      "linkedin_connect": "Ford's Dearborn lockdown left 60+ plants unalerted. Your new CSO mandate requires cross-plant visibility by March. Let's discuss your consolidation timeline."
+    },
+    {
+      "account": "Johnson & Johnson",
+      "buyer_title": "Global Chief Security Officer",
+      "email_subject": "Vendor fraud correlation across divisions",
+      "context": "Diversified manufacturers defend compliance using unified threat correlation across all operating companies.",
+      "problem": "Vendor fraud hit 3 operating companies simultaneously \u2014 compliance demanding threat correlation across 250 facilities you can't currently connect.",
+      "question": "How are security incidents shared across your divisions today?",
+      "linkedin_connect": "Vendor fraud across your three operating companies exposed division gaps. Compliance demanding unified threat correlation at 250 sites. Let's align on this."
+    },
+    {
+      "account": "Costco Wholesale",
+      "buyer_title": "VP Loss Prevention",
+      "email_subject": "ORC detection speed and visibility",
+      "context": "Warehouse retailers stop ORC activity using real-time threat signal detection across all locations.",
+      "problem": "ORC spiking \u2014 manual incident response delays 48+ hours. 850 warehouses need real-time visibility, leadership demanding faster threat detection.",
+      "question": "How are you detecting ORC signals across locations today?",
+      "linkedin_connect": "Costco's ORC activity spiking with 48-hour response delays. Your 850 warehouses need real-time detection. New LP leadership likely demanding speed. Talk?"
+    },
+    {
+      "account": "General Motors",
+      "buyer_title": "Chief Security Officer",
+      "email_subject": "Workplace violence cross-plant alerting",
+      "context": "Global manufacturers protect plants using unified threat intelligence across all manufacturing sites.",
+      "problem": "Detroit plant violence threat \u2014 20+ sites unalerted. New CSO consolidating fragmented systems by Q2, plants still operating disconnected.",
+      "question": "How are workplace threats reaching all your plants simultaneously?",
+      "linkedin_connect": "GM's Detroit workplace violence threat left 20+ plants dark. Your new CSO mandate demands unified threat intelligence by Q2. Worth discussing?"
+    },
+    {
+      "account": "Best Buy",
+      "buyer_title": "VP Loss Prevention",
+      "email_subject": "ORC signal correlation across locations",
+      "context": "National retailers beat organized crime using incident signal correlation across all stores.",
+      "problem": "Organized retail crime spiking \u2014 1,000 stores blind to coordinated threat patterns. New VP Loss Prevention demanding incident correlation immediately.",
+      "question": "How are you correlating ORC patterns across stores today?",
+      "linkedin_connect": "Best Buy's ORC activity escalating quarterly. New VP Loss Prevention hired to fix it. Your 1,000 stores need coordinated threat visibility. Let's talk."
+    },
+    {
+      "account": "Apple",
+      "buyer_title": "Head of Retail Security",
+      "email_subject": "Retail employee threat visibility framework",
+      "context": "Enterprise retailers defend employee safety using unified risk assessment across all locations.",
+      "problem": "Flagship retail employee threats went undetected \u2014 500 stores lack unified employee risk assessment. Head of Retail Security mandating visibility framework.",
+      "question": "How are you tracking employee risk signals across locations?",
+      "linkedin_connect": "Apple's flagship retail security gaps exposed employee threat gaps. Your 500 stores need unified risk visibility. New Head of Retail Security likely demanding this now."
+    }
+  ],
+  "strategy": {
+    "first_30_days": [
+      "Call Walmart Loss Prevention leadership: $60M Q4 ORC losses, cross-store correlation gap",
+      "Email Target CFO advisor: board review Q1, forensics demand creates budget urgency",
+      "LinkedIn message Home Depot Regional Security: 12-store Georgia ring, no alert system",
+      "Phone Amazon new VP Loss Prevention: $40M shrinkage, unified threat feed needed",
+      "Call Ford Chief Security Officer: Dearborn lockdown exposed 60-facility blind spots immediately",
+      "Email J&J Compliance: vendor fraud across 3 companies, 250 facilities unconnected today"
+    ],
+    "sequencing": {
+      "priority_accounts": [
+        "Walmart Inc.",
+        "Target Corporation",
+        "Amazon"
+      ],
+      "why": "Active incident triggers, board/executive pressure, multi-location visibility gaps create 30-day buying momentum"
+    },
+    "channels": {
+      "primary": "phone",
+      "reasoning": "Incident-driven deals require urgency, security leaders respond to direct conversation over email"
+    },
+    "metrics": [
+      "Meetings booked with Director+ security role",
+      "Accounts with active incident trigger mentioned in call",
+      "Follow-up emails sent same day as call",
+      "Pipeline value from first 6 accounts contacted"
+    ],
+    "risks": [
+      "Security leaders gatekeep access; target HR/facilities for warm introduction first",
+      "Retail chains have centralized procurement; single conversation won't move deal",
+      "Manufacturing plants slow to adopt new tools; emphasize integration with existing systems"
+    ]
+  }
+}

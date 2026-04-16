@@ -1,0 +1,23 @@
+IDEAL FORMAT for the Top-5 priority section.
+Each account = ONE line. Format: Company — Trigger → Business impact.
+Maximally punchy. No filler. Name a real fact or dollar amount.
+
+Examples:
+
+1. Walmart — ORC rings across Midwest → $60B losses accelerating
+2. Target — $100M loss prevention under exec scrutiny → ROI due Q2
+3. Ford — Workplace threat lockdown at Ohio plant → 60+ plants blind
+4. J&J — Vendor fraud across 3 operating companies → Compliance demanding unity
+5. GE — Social engineering across divisions → CISO ordered intel sharing
+
+NOT like this (too wordy, too soft, too analytical):
+
+1. Walmart announced Q4 inventory shrink reports and... (TOO LONG)
+2. Target may want to consider their loss prevention... (TOO SOFT)
+3. Corporate security at Ford is currently dealing with... (TOO VAGUE)
+
+Rules:
+- Drop filler: "Corporate", "Currently", "The team", "is now"
+- Verbs > nouns. Active voice only.
+- Company name — trigger (punchy) → outcome (punchy)
+- Each side of the arrow should fit naturally in 5–7 words

@@ -1,0 +1,32 @@
+Based on this ICP:
+
+{company_profile}
+
+Generate 10 target accounts. REAL companies only.
+
+HARD LIMITS per account:
+- name: real, well-known company
+- industry: 1–3 words
+- location: City, State
+- why_fit: MAX 14 words — specific, concrete, name a fact
+- priority_score: 9 for top 3, 8 for next 3, 7 for next 2, 6 for last 2
+
+No fluff. No generic reasoning.
+
+Match the tone and length of this card example exactly:
+
+{card_example}
+
+Return ONLY valid JSON:
+
+{{
+  "accounts": [
+    {{
+      "name": "...",
+      "industry": "...",
+      "location": "City, State",
+      "why_fit": "...",
+      "priority_score": 9
+    }}
+  ]
+}}

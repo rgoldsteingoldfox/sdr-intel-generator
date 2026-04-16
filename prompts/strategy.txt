@@ -1,0 +1,32 @@
+Write a Day-1 SDR territory strategy. Every line must be skimmable in under 2 seconds.
+
+Company profile:
+{company_profile}
+
+Accounts + triggers:
+{triggers_json}
+
+HARD LIMITS:
+- each first_30_days item:  MAX 14 words
+- sequencing.why:           MAX 14 words
+- channels.reasoning:       MAX 12 words
+- each metric:              MAX 8 words
+- each risk:                MAX 12 words
+
+No fluff. No generic advice. Every line actionable.
+
+Return ONLY valid JSON:
+
+{{
+  "first_30_days": ["action 1", "action 2", "action 3", "action 4", "action 5"],
+  "sequencing": {{
+    "priority_accounts": ["account 1", "account 2", "account 3"],
+    "why": "..."
+  }},
+  "channels": {{
+    "primary": "email | phone | linkedin",
+    "reasoning": "..."
+  }},
+  "metrics": ["leading 1", "leading 2", "lagging"],
+  "risks": ["risk 1", "risk 2", "risk 3"]
+}}

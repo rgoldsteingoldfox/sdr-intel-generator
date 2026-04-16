@@ -1,0 +1,33 @@
+{
+  "company": "Company Name Here",
+  "icp": {
+    "company_types": [
+      "e.g. Fortune 500 enterprises",
+      "e.g. Federal agencies and prime contractors"
+    ],
+    "size": "e.g. 5,000+ employees, $1B+ revenue",
+    "industry": [
+      "e.g. Financial services",
+      "e.g. Healthcare systems",
+      "e.g. Manufacturing"
+    ]
+  },
+  "personas": [
+    "Chief Security Officer",
+    "VP Corporate Security",
+    "Director of Threat Intelligence"
+  ],
+  "pain_points": [
+    "Top operational pain #1 (1 sentence)",
+    "Top operational pain #2",
+    "Top operational pain #3",
+    "Top operational pain #4",
+    "Top operational pain #5"
+  ],
+  "buying_triggers": [
+    "Recent event signal #1 (e.g. workplace incident, exec departure)",
+    "Recent event signal #2 (e.g. M&A activity)",
+    "Recent event signal #3 (e.g. regulatory change)"
+  ],
+  "positioning": "1–2 sentences on how this company wins vs its main competitors."
+}

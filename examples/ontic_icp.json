@@ -1,0 +1,45 @@
+{
+  "company": "Ontic",
+  "icp": {
+    "company_types": [
+      "Fortune 500 enterprises",
+      "Large retail chains",
+      "Global manufacturing companies",
+      "Corporate campuses with distributed locations"
+    ],
+    "size": "1,000+ employees, multi-location operations",
+    "industry": [
+      "Retail",
+      "Manufacturing",
+      "Technology",
+      "Corporate enterprises"
+    ],
+    "use_cases": [
+      "Workplace violence prevention",
+      "Retail theft and loss prevention",
+      "Employee threat monitoring",
+      "Centralizing security intelligence across locations"
+    ],
+    "pain_points": [
+      "Security data is siloed across multiple systems",
+      "Manual threat monitoring processes",
+      "Slow response to incidents due to lack of centralized intelligence",
+      "Difficulty correlating signals across locations",
+      "Lack of visibility into emerging threats"
+    ],
+    "buying_triggers": [
+      "Workplace violence incidents",
+      "Increase in theft or security breaches",
+      "Expansion to multiple locations",
+      "Hiring for security or threat intelligence roles",
+      "Recent public security incidents or risks"
+    ],
+    "personas": [
+      "Director of Security",
+      "VP of Security",
+      "Head of Corporate Security",
+      "Threat Intelligence Manager",
+      "GSOC Manager"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+For each account:
+
+{accounts}
+
+Generate a REAL-WORLD trigger event an SDR would actually use as an opener.
+
+Favor these trigger categories:
+  - Workplace incidents (violence, disgruntled employee, facility threat)
+  - Theft trends (organized retail crime, shrinkage spike)
+  - Security gaps (breach, exec threat, protest, layoffs)
+  - Hiring signals (new CSO/VP Security, open threat-intel req)
+  - Leadership change or M&A
+  - Peer-company incident the account would react to
+
+NO technical jargon. NO "correlation workflows" / "ingestion pipelines".
+
+=====================================================================
+YOUR OUTPUT WILL BE RENDERED IN THIS EXACT DASHBOARD FORMAT.
+Match the tone, length, and style of these examples exactly:
+=====================================================================
+
+{top5_example}
+
+{card_example}
+
+=====================================================================
+
+HARD LIMITS:
+- trigger_event:  MAX 14 words — concrete, specific, real-world
+- why_now:        MAX 12 words — names the time pressure
+- why_it_matters: MAX 12 words — names the outcome for {company_name}
+
+Match the structure, tone, and length of the examples exactly. Do not deviate.
+
+Return ONLY valid JSON:
+
+{{
+  "triggers": [
+    {{
+      "account": "account name (must match input)",
+      "trigger_event": "...",
+      "why_now": "...",
+      "why_it_matters": "..."
+    }}
+  ]
+}}

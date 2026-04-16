@@ -1,0 +1,45 @@
+Write cold outreach for each account + trigger pair.
+
+Company you're selling for: {company_profile_one_line}
+Value prop: {value_prop}
+
+Account + trigger list:
+{triggers_json}
+
+For each pair, write a tight 3-variable outreach:
+  CONTEXT  — MAX 18 words. Credibility via peer customers.
+  PROBLEM  — MAX 18 words. Name the specific pain the trigger exposes.
+  QUESTION — MAX 12 words. Soft open-ended question.
+
+Plus:
+  EMAIL_SUBJECT   — MAX 7 words, no emoji, no clickbait
+  LINKEDIN_CONNECT — MAX 35 words, personal opener referencing the trigger
+
+Rules:
+- Reference the trigger directly — never generic
+- Never name the product
+- No jargon ("leverage", "synergy", "passionate", "innovative", "cutting-edge")
+- Match confident, decisive tone of this example:
+
+  CTX: Retailers managing 1,000+ locations use centralized incident correlation to catch organized crime.
+  PRB: ORC rings hitting Minneapolis stores — 1,900 locations can't see the pattern without connected data.
+  ASK: How are you correlating theft incidents across locations today?
+  SUBJ: Minneapolis ORC pattern visibility
+
+Match the structure, tone, and length exactly. Do not deviate.
+
+Return ONLY valid JSON:
+
+{{
+  "outreach": [
+    {{
+      "account": "company name",
+      "buyer_title": "from input",
+      "email_subject": "...",
+      "context": "...",
+      "problem": "...",
+      "question": "...",
+      "linkedin_connect": "..."
+    }}
+  ]
+}}
