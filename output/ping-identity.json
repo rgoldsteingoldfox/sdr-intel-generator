@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "company": "Ping Identity",
+    "role": "Senior Sales Development Representative",
+    "generated_at": "2026-04-17T23:10:00.820897Z",
+    "grounding": "icp_file"
+  },
+  "profile": {
+    "company": "Ping Identity",
+    "icp": {
+      "company_types": [
+        "Fortune 500 enterprises",
+        "Mid-market to enterprise SaaS companies",
+        "Financial institutions and banks",
+        "Healthcare systems with compliance requirements",
+        "Government agencies (federal, state)"
+      ],
+      "size": "1,000+ employees, complex identity environments",
+      "industry": [
+        "Financial services",
+        "Healthcare",
+        "Technology",
+        "Government / public sector",
+        "Retail / ecommerce"
+      ],
+      "use_cases": [
+        "Single sign-on (SSO) across enterprise apps",
+        "Multi-factor authentication (MFA) rollout",
+        "Zero trust identity security",
+        "Customer identity and access management (CIAM)",
+        "Identity governance and compliance"
+      ],
+      "pain_points": [
+        "Identity sprawl across cloud and on-prem systems",
+        "MFA friction slowing employee and customer access",
+        "Compliance gaps in identity governance (HIPAA, SOX, FedRAMP)",
+        "Legacy identity infrastructure can't scale to cloud",
+        "Breach risk from weak or fragmented authentication"
+      ],
+      "buying_triggers": [
+        "Data breach or credential compromise incident",
+        "Cloud migration requiring identity consolidation",
+        "Compliance audit failure or regulatory mandate",
+        "New CISO or VP of IT Security hired",
+        "M&A requiring identity system unification"
+      ],
+      "personas": [
+        "CISO",
+        "VP of IT Security",
+        "Director of Identity & Access Management",
+        "IT Security Manager",
+        "VP of Infrastructure"
+      ]
+    }
+  },
+  "accounts": [
+    {
+      "name": "JPMorgan Chase",
+      "industry": "Financial Services",
+      "location": "New York, NY",
+      "why_fit": "180,000 employees across 4,800 branches need zero-trust identity consolidation post-breach.",
+      "priority_score": 9
+    },
+    {
+      "name": "UnitedHealth Group",
+      "industry": "Healthcare",
+      "location": "Minnetonka, MN",
+      "why_fit": "HIPAA compliance audit flagged fragmented SSO across 50+ subsidiary systems.",
+      "priority_score": 9
+    },
+    {
+      "name": "General Dynamics",
+      "industry": "Government/Defense",
+      "location": "Falls Church, VA",
+      "why_fit": "New CISO hired Q3 2024, 125,000 employees need FedRAMP identity governance.",
+      "priority_score": 9
+    },
+    {
+      "name": "Bank of America",
+      "industry": "Financial Services",
+      "location": "Charlotte, NC",
+      "why_fit": "MFA rollout across 200,000 employees stalled due to legacy on-prem infrastructure.",
+      "priority_score": 8
+    },
+    {
+      "name": "CVS Health",
+      "industry": "Healthcare/Retail",
+      "location": "Woonsocket, RI",
+      "why_fit": "140,000 store and clinic employees need unified CIAM after Aetna integration.",
+      "priority_score": 8
+    },
+    {
+      "name": "Lockheed Martin",
+      "industry": "Government/Defense",
+      "location": "Bethesda, MD",
+      "why_fit": "114,000 DoD contractors demand zero-trust identity architecture for classified systems.",
+      "priority_score": 8
+    },
+    {
+      "name": "Wells Fargo",
+      "industry": "Financial Services",
+      "location": "San Francisco, CA",
+      "why_fit": "280,000 employees across 7,000 locations need compliance-ready identity governance.",
+      "priority_score": 7
+    },
+    {
+      "name": "Anthem Inc.",
+      "industry": "Healthcare",
+      "location": "Indianapolis, IN",
+      "why_fit": "SOX compliance gap in identity audit, 50,000+ employees across multi-state network.",
+      "priority_score": 7
+    },
+    {
+      "name": "Cisco Systems",
+      "industry": "Technology",
+      "location": "San Jose, CA",
+      "why_fit": "75,000 global employees, cloud-first environment struggling with identity sprawl.",
+      "priority_score": 6
+    },
+    {
+      "name": "Albertsons",
+      "industry": "Retail",
+      "location": "Boise, ID",
+      "why_fit": "Post-merger integration requires unified SSO across 2,200+ stores and distribution centers.",
+      "priority_score": 6
+    }
+  ],
+  "triggers": [
+    {
+      "account": "JPMorgan Chase",
+      "trigger_event": "MOVEit breach exposed 10K+ employee credentials, MFA gaps revealed.",
+      "why_now": "CRO demanding identity audit completion before Q1 board review.",
+      "why_it_matters": "180K employees need zero-trust consolidation before next incident."
+    },
+    {
+      "account": "UnitedHealth Group",
+      "trigger_event": "HIPAA audit flagged SSO fragmentation across 50+ subsidiary systems.",
+      "why_now": "Compliance deadline looms, audit fines escalate monthly.",
+      "why_it_matters": "Unified identity governance stops audit fails, restores compliance status."
+    },
+    {
+      "account": "General Dynamics",
+      "trigger_event": "New CISO hired Q3\u2014DoD contractors demanding FedRAMP identity architecture.",
+      "why_now": "New exec has 90-day mandate to modernize controls.",
+      "why_it_matters": "125K employees need certified identity governance for classified contracts."
+    },
+    {
+      "account": "Bank of America",
+      "trigger_event": "MFA rollout stalled\u2014legacy on-prem blocks 200K employee enforcement.",
+      "why_now": "Board security committee escalated rollout delays to executive level.",
+      "why_it_matters": "Modern identity platform unblocks MFA, accelerates regulatory compliance."
+    },
+    {
+      "account": "CVS Health",
+      "trigger_event": "Aetna integration revealed duplicate identities across 140K clinic staff.",
+      "why_now": "Unified CIAM eliminates duplicate accounts, cuts admin overhead."
+    },
+    {
+      "account": "Lockheed Martin",
+      "trigger_event": "DoD contract renewal requires zero-trust identity for 114K contractors.",
+      "why_now": "Defense Intelligence Agency audit demands certified architecture proof.",
+      "why_it_matters": "FedRAMP-ready platform secures classified contracts, unblocks growth."
+    },
+    {
+      "account": "Wells Fargo",
+      "trigger_event": "OCC enforcement action mandates identity governance audit across 7K locations.",
+      "why_now": "Compliance deadline Q1 2025, executive accountability clause active.",
+      "why_it_matters": "Enterprise identity platform closes governance gaps, prevents penalties."
+    },
+    {
+      "account": "Anthem Inc.",
+      "trigger_event": "SOX audit revealed identity compliance gaps across 50K employees.",
+      "why_now": "External auditors demanding remediation before annual certification.",
+      "why_it_matters": "Automated governance stops audit findings, protects sign-off."
+    },
+    {
+      "account": "Cisco Systems",
+      "trigger_event": "Cloud migration exposed identity sprawl across 75K global workforce.",
+      "why_now": "CISO tasked to unify access control pre-IPO review.",
+      "why_it_matters": "Centralized identity platform simplifies cloud-first architecture, reduces risk."
+    },
+    {
+      "account": "Albertsons",
+      "trigger_event": "Post-merger integration, 2.2K stores running duplicate SSO systems.",
+      "why_now": "IT consolidation mandate due Q2, budget approved.",
+      "why_it_matters": "Single identity platform cuts store access costs, unifies operations."
+    }
+  ],
+  "outreach": [
+    {
+      "account": "JPMorgan Chase",
+      "buyer_title": "Chief Risk Officer / CISO",
+      "email_subject": "MOVEit breach + MFA gaps exposure",
+      "context": "Financial services peers closing identity audit gaps within 60 days post-breach.",
+      "problem": "MOVEit exposed 10K+ credentials; MFA enforcement stalled across 180K employees.",
+      "question": "How are you validating MFA coverage before board review?",
+      "linkedin_connect": "Saw JPMorgan's Q3 breach response \u2014 managing credential exposure across 180K employees sounds urgent. Quick question on your MFA validation timeline."
+    },
+    {
+      "account": "UnitedHealth Group",
+      "buyer_title": "Chief Compliance Officer / VP Identity",
+      "email_subject": "HIPAA audit + SSO fragmentation fix",
+      "context": "Healthcare systems consolidating 40+ SSO instances to pass compliance audits.",
+      "problem": "50+ subsidiary systems failing HIPAA audit; monthly compliance fines escalating.",
+      "question": "What's your timeline for fixing SSO fragmentation before penalties?",
+      "linkedin_connect": "Heard about UnitedHealth's HIPAA audit findings across subsidiaries \u2014 managing that scale sounds complex. How are you prioritizing the consolidation?"
+    },
+    {
+      "account": "General Dynamics",
+      "buyer_title": "New CISO / VP Security",
+      "email_subject": "New CISO + DoD FedRAMP mandate",
+      "context": "Defense contractors completing FedRAMP identity architecture within 90-day CISO tenure.",
+      "problem": "DoD requires certified identity governance; 125K employees need zero-trust before contract renewal.",
+      "question": "What's your FedRAMP architecture roadmap for the first 90 days?",
+      "linkedin_connect": "Congratulations on the new CISO role at General Dynamics. DoD's FedRAMP mandate is tight \u2014 curious how you're structuring the identity modernization."
+    },
+    {
+      "account": "Bank of America",
+      "buyer_title": "Chief Information Security Officer / VP Identity",
+      "email_subject": "MFA rollout blocked by legacy systems",
+      "context": "Banks unblocking MFA enforcement across 200K+ employees post-legacy infrastructure swap.",
+      "problem": "Legacy on-prem blocks MFA for 200K employees; board committee escalated delays.",
+      "question": "What's blocking full MFA deployment across your workforce?",
+      "linkedin_connect": "Saw Board Security Committee flagged your MFA rollout delays \u2014 managing 200K employees on legacy systems is a real blocker. How's the modernization progressing?"
+    },
+    {
+      "account": "CVS Health",
+      "buyer_title": "VP Identity & Access Management / CIO",
+      "email_subject": "Aetna merger duplicate identity cleanup",
+      "context": "Healthcare retailers eliminating duplicate identities across 140K+ clinic staff post-acquisition.",
+      "problem": "Aetna integration exposed duplicate identities; 140K clinic staff can't consolidate access.",
+      "question": "How are you consolidating duplicate identities across merged operations?",
+      "linkedin_connect": "Handling the Aetna integration at scale \u2014 140K duplicate identities across clinics sounds like a major cleanup. What's your consolidation approach?"
+    },
+    {
+      "account": "Lockheed Martin",
+      "buyer_title": "Chief Information Security Officer / VP Compliance",
+      "email_subject": "DoD contract renewal + zero-trust requirement",
+      "context": "Defense contractors securing 114K contractor identities to renew classified work.",
+      "problem": "DoD audit demands certified zero-trust identity; 114K contractors need compliance proof.",
+      "question": "How are you structuring zero-trust identity for DoD contract renewal?",
+      "linkedin_connect": "Lockheed's DoD contract renewal is critical \u2014 DIA's zero-trust audit is no joke with 114K contractors. How's your certification roadmap looking?"
+    },
+    {
+      "account": "Wells Fargo",
+      "buyer_title": "Chief Compliance Officer / CISO",
+      "email_subject": "OCC enforcement action governance audit",
+      "context": "Banks closing identity governance gaps to satisfy OCC enforcement orders.",
+      "problem": "OCC enforcement mandates identity audit across 7K locations; Q1 deadline active.",
+      "question": "What's your approach to closing governance gaps before Q1?",
+      "linkedin_connect": "Wells Fargo's OCC action is high-stakes \u2014 governance audit across 7K locations requires speed. What's your remediation timeline looking like?"
+    },
+    {
+      "account": "Anthem Inc.",
+      "buyer_title": "VP Audit & Compliance / Chief Compliance Officer",
+      "email_subject": "SOX audit identity compliance gaps",
+      "context": "Healthcare companies automating identity governance to pass SOX auditor reviews.",
+      "problem": "SOX audit flagged identity gaps across 50K employees; external auditors demanding fix.",
+      "question": "How are you preparing for external auditor remediation review?",
+      "linkedin_connect": "Anthem's SOX audit findings on identity compliance \u2014 50K employees is a lot to remediate. How's your automated governance strategy taking shape?"
+    },
+    {
+      "account": "Cisco Systems",
+      "buyer_title": "Chief Information Security Officer / VP Cloud Security",
+      "email_subject": "Cloud migration identity sprawl exposure",
+      "context": "Tech companies consolidating 75K+ cloud identities to unify access architecture.",
+      "problem": "Cloud migration exposed identity sprawl across 75K workforce; CISO mandated consolidation.",
+      "question": "How are you unifying access control for cloud-first architecture?",
+      "linkedin_connect": "Cisco's cloud migration is ambitious \u2014 managing 75K identities across sprawl before IPO review is critical. What's your consolidation strategy?"
+    },
+    {
+      "account": "Albertsons",
+      "buyer_title": "VP IT Operations / Chief Information Officer",
+      "email_subject": "Post-merger SSO consolidation across 2.2K stores",
+      "context": "Retailers unifying duplicate SSO systems across 2K+ locations post-merger.",
+      "problem": "2.2K stores running duplicate SSO systems; Q2 IT consolidation budget approved.",
+      "question": "How are you consolidating store access systems by Q2?",
+      "linkedin_connect": "Albertsons merger integration \u2014 managing duplicate SSO across 2.2K stores is complex. Q2 deadline sounds tight. How's the consolidation roadmap tracking?"
+    }
+  ],
+  "strategy": {
+    "first_30_days": [
+      "Call JPMorgan Chase Security Ops Director\u2014MOVEit breach audit due Q1.",
+      "Email UnitedHealth HIPAA Compliance Officer\u2014audit fines escalate, deadline Q1.",
+      "Call General Dynamics CISO directly\u2014new hire, 90-day FedRAMP mandate.",
+      "Phone Bank of America VP Security\u2014MFA rollout stalled, board escalation.",
+      "Email Wells Fargo Compliance Lead\u2014OCC enforcement action, Q1 deadline.",
+      "Call Lockheed Martin Identity Director\u2014DoD contract renewal audit incoming.",
+      "Email Cisco CISO\u2014cloud migration exposed 75K employee sprawl risk.",
+      "Phone CVS Health IT Director\u2014Aetna integration doubled identity footprint.",
+      "Call Anthem SOX Compliance Owner\u2014audit findings block annual sign-off.",
+      "Email Albertsons CTO\u2014post-merger SSO duplicate systems, Q2 consolidation mandate."
+    ],
+    "sequencing": {
+      "priority_accounts": [
+        "JPMorgan Chase",
+        "Wells Fargo",
+        "General Dynamics"
+      ],
+      "why": "Active enforcement actions and board-level escalations create immediate buying urgency."
+    },
+    "channels": {
+      "primary": "phone",
+      "reasoning": "Breach incidents and compliance deadlines demand direct conversation, not email."
+    },
+    "metrics": [
+      "Calls connected to CISO or VP Security (target: 8 week 1)",
+      "Qualified meetings with identity decision-makers (target: 4 week 1)",
+      "Trigger-event references in voicemail opens (target: 60% call-back rate)",
+      "Pipeline value from booked demos (target: $500K minimum by day 30)"
+    ],
+    "risks": [
+      "Compliance teams slower to move than security\u2014prioritize CISO over auditor.",
+      "Regulatory deadlines create false urgency\u2014verify actual sign-off authority before meeting.",
+      "Identity sprawl conversations need technical fluency\u2014lost credibility if vague on SSO."
+    ]
+  }
+}

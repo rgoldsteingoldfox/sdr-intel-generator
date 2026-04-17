@@ -1,0 +1,48 @@
+{
+  "company": "Ping Identity",
+  "icp": {
+    "company_types": [
+      "Fortune 500 enterprises",
+      "Mid-market to enterprise SaaS companies",
+      "Financial institutions and banks",
+      "Healthcare systems with compliance requirements",
+      "Government agencies (federal, state)"
+    ],
+    "size": "1,000+ employees, complex identity environments",
+    "industry": [
+      "Financial services",
+      "Healthcare",
+      "Technology",
+      "Government / public sector",
+      "Retail / ecommerce"
+    ],
+    "use_cases": [
+      "Single sign-on (SSO) across enterprise apps",
+      "Multi-factor authentication (MFA) rollout",
+      "Zero trust identity security",
+      "Customer identity and access management (CIAM)",
+      "Identity governance and compliance"
+    ],
+    "pain_points": [
+      "Identity sprawl across cloud and on-prem systems",
+      "MFA friction slowing employee and customer access",
+      "Compliance gaps in identity governance (HIPAA, SOX, FedRAMP)",
+      "Legacy identity infrastructure can't scale to cloud",
+      "Breach risk from weak or fragmented authentication"
+    ],
+    "buying_triggers": [
+      "Data breach or credential compromise incident",
+      "Cloud migration requiring identity consolidation",
+      "Compliance audit failure or regulatory mandate",
+      "New CISO or VP of IT Security hired",
+      "M&A requiring identity system unification"
+    ],
+    "personas": [
+      "CISO",
+      "VP of IT Security",
+      "Director of Identity & Access Management",
+      "IT Security Manager",
+      "VP of Infrastructure"
+    ]
+  }
+}
