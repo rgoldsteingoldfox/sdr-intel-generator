@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "company": "Avive Solutions",
+    "role": "Enterprise Sales Development Representative",
+    "generated_at": "2026-04-20T15:31:12.178583Z",
+    "grounding": "icp_file"
+  },
+  "profile": {
+    "company": "Avive Solutions",
+    "icp": {
+      "company_types": [
+        "Fortune 2000 enterprises",
+        "Organizations with $1B+ revenue",
+        "Organizations with 2,000+ employees",
+        "Multi-location corporate campuses",
+        "Large hospitality and retail chains"
+      ],
+      "size": "2,000+ employees, $1B+ revenue, multi-site operations",
+      "industry": [
+        "Manufacturing",
+        "Hospitality / hotels",
+        "Retail chains",
+        "Corporate enterprises",
+        "Higher education",
+        "Healthcare systems"
+      ],
+      "use_cases": [
+        "Enterprise AED program deployment across locations",
+        "Connected AED response system for faster cardiac arrest response",
+        "AED lifecycle management and compliance tracking",
+        "Workplace safety and OSHA compliance for cardiac emergencies",
+        "Replacing outdated AED fleets with connected, modern devices"
+      ],
+      "pain_points": [
+        "AED programs are unmanaged \u2014 devices expire without anyone knowing",
+        "No visibility into AED readiness across distributed locations",
+        "Compliance gaps in workplace cardiac emergency preparedness",
+        "Legacy AEDs lack connectivity \u2014 no alerts, no tracking, no data",
+        "Cardiac arrest response times too slow due to AED location confusion"
+      ],
+      "buying_triggers": [
+        "Workplace cardiac event or near-miss incident",
+        "OSHA safety audit or compliance review",
+        "New EHS Director or VP of Safety hired",
+        "AED fleet approaching end-of-life / mass replacement cycle",
+        "Competitor or peer company deploying connected AED programs",
+        "Expansion to new facilities requiring AED coverage"
+      ],
+      "personas": [
+        "VP of Environment, Health & Safety (EHS)",
+        "Director of Workplace Safety",
+        "Head of Facilities / Facilities Director",
+        "Chief Security Officer",
+        "Risk Manager / VP of Risk"
+      ]
+    }
+  },
+  "accounts": [
+    {
+      "name": "Marriott International",
+      "industry": "Hospitality",
+      "location": "Bethesda, MD",
+      "why_fit": "7,500+ properties globally, cardiac events in guest-facing areas, outdated AED fleets across all regions.",
+      "priority_score": 9
+    },
+    {
+      "name": "Amazon Warehouses",
+      "industry": "Logistics/Retail",
+      "location": "Seattle, WA",
+      "why_fit": "500+ fulfillment centers, high-density workforce, OSHA pressure on emergency preparedness and response times.",
+      "priority_score": 9
+    },
+    {
+      "name": "Walmart Inc.",
+      "industry": "Retail",
+      "location": "Bentonville, AR",
+      "why_fit": "4,700+ stores, no centralized AED tracking, compliance blind spots across state jurisdictions.",
+      "priority_score": 9
+    },
+    {
+      "name": "Cleveland Clinic",
+      "industry": "Healthcare",
+      "location": "Cleveland, OH",
+      "why_fit": "170+ facilities, cardiac specialists on staff, legacy AED fleet nearing replacement cycle.",
+      "priority_score": 8
+    },
+    {
+      "name": "Hyatt Hotels Corporation",
+      "industry": "Hospitality",
+      "location": "Chicago, IL",
+      "why_fit": "1,300+ hotels, guest safety liability risk, connected AED response critical for brand protection.",
+      "priority_score": 8
+    },
+    {
+      "name": "General Motors",
+      "industry": "Manufacturing",
+      "location": "Detroit, MI",
+      "why_fit": "48 manufacturing plants, 100,000+ employees, OSHA audits demand cardiac emergency readiness.",
+      "priority_score": 8
+    },
+    {
+      "name": "University of Michigan",
+      "industry": "Higher Education",
+      "location": "Ann Arbor, MI",
+      "why_fit": "50,000+ students across 3 campuses, cardiac incident liability, AED visibility gap across locations.",
+      "priority_score": 7
+    },
+    {
+      "name": "Target Corporation",
+      "industry": "Retail",
+      "location": "Minneapolis, MN",
+      "why_fit": "1,950+ stores, distributed safety teams, no real-time AED readiness data across portfolio.",
+      "priority_score": 7
+    },
+    {
+      "name": "Ford Motor Company",
+      "industry": "Manufacturing",
+      "location": "Dearborn, MI",
+      "why_fit": "30+ North American plants, aging AED infrastructure, facilities expansion requires coverage planning.",
+      "priority_score": 6
+    },
+    {
+      "name": "Hilton Worldwide",
+      "industry": "Hospitality",
+      "location": "McLean, VA",
+      "why_fit": "6,800+ properties, guest-facing cardiac risk, competitor deployments driving safety upgrades.",
+      "priority_score": 6
+    }
+  ],
+  "triggers": [
+    {
+      "account": "Marriott International",
+      "trigger_event": "Guest cardiac event at flagship DC property, no AED response time logged.",
+      "why_now": "7,500 properties exposed, liability counsel demanding incident protocol audit now.",
+      "why_it_matters": "Centralized AED tracking prevents next incident from becoming PR crisis."
+    },
+    {
+      "account": "Amazon Warehouses",
+      "trigger_event": "OSHA citation for inadequate cardiac emergency response at Seattle fulfillment center.",
+      "why_now": "500+ facilities face same audit exposure, safety director scrambling for compliance.",
+      "why_it_matters": "Real-time AED readiness visibility closes OSHA gap across entire network."
+    },
+    {
+      "account": "Walmart Inc.",
+      "trigger_event": "Cardiac incident at Arkansas store, no centralized AED location data found.",
+      "why_now": "4,700 stores operate blind, compliance gaps across state jurisdictions accelerating.",
+      "why_it_matters": "Unified AED tracking eliminates liability exposure and response time failures."
+    },
+    {
+      "account": "Cleveland Clinic",
+      "trigger_event": "Legacy AED fleet hits end-of-life across 170 facilities simultaneously.",
+      "why_now": "Cardiac specialists demanding modern connected devices, replacement cycle urgent.",
+      "why_it_matters": "Smart AED network integrates with hospital incident command and data systems."
+    },
+    {
+      "account": "Hyatt Hotels Corporation",
+      "trigger_event": "Competitor hotel brand deploys connected AED system, guest safety messaging amplified.",
+      "why_now": "1,300 properties lose competitive safety positioning, brand protection urgent.",
+      "why_it_matters": "Connected AED deployment demonstrates guest safety leadership and liability mitigation."
+    },
+    {
+      "account": "General Motors",
+      "trigger_event": "OSHA unannounced inspection at Detroit plant reveals scattered AED placement.",
+      "why_now": "48 plants face same inspection risk, facilities teams lack coordination.",
+      "why_it_matters": "Standardized AED network ensures OSHA readiness across all manufacturing sites."
+    },
+    {
+      "account": "University of Michigan",
+      "trigger_event": "Student cardiac event on campus, AED location unclear across three campuses.",
+      "why_now": "50,000 students at risk, liability counsel demanding visibility protocol.",
+      "why_it_matters": "Campus-wide AED tracking protects student safety and reduces institutional exposure."
+    },
+    {
+      "account": "Target Corporation",
+      "trigger_event": "Regional incident response failed, store teams couldn't locate nearest AED.",
+      "why_now": "1,950 stores operating blind, loss prevention leadership demanding accountability.",
+      "why_it_matters": "Real-time AED readiness data closes response gap across entire portfolio."
+    },
+    {
+      "account": "Ford Motor Company",
+      "trigger_event": "Workplace incident at Dearborn plant, emergency response hampered by outdated AED fleet.",
+      "why_now": "30+ plants aging, facilities expansion requires modernized safety infrastructure.",
+      "why_it_matters": "Connected AED network supports plant growth and incident preparedness requirements."
+    },
+    {
+      "account": "Hilton Worldwide",
+      "trigger_event": "Guest safety incident at competing hotel brand triggers industry-wide scrutiny.",
+      "why_now": "6,800 properties vulnerable, brand protection requires visible safety upgrades.",
+      "why_it_matters": "Deployed AED system differentiates Hilton safety positioning and guest confidence."
+    }
+  ],
+  "outreach": [
+    {
+      "account": "Marriott International",
+      "buyer_title": "Director of Risk & Compliance",
+      "email_subject": "DC property cardiac incident protocol audit",
+      "context": "Hotel chains managing 5,000+ properties standardize emergency response protocols across all locations.",
+      "problem": "Guest cardiac event at flagship DC property exposed zero AED response logging across 7,500 properties.",
+      "question": "How are you tracking AED readiness across all locations today?",
+      "linkedin_connect": "Saw the DC incident made liability counsel demand immediate protocol audit. Most chains we work with now centralize visibility first. Worth a quick call?"
+    },
+    {
+      "account": "Amazon Warehouses",
+      "buyer_title": "Regional Safety Director",
+      "email_subject": "Seattle fulfillment center OSHA citation response",
+      "context": "Logistics networks with 500+ facilities use real-time cardiac readiness visibility to close OSHA gaps.",
+      "problem": "OSHA citation at Seattle facility exposed 500+ centers operating blind on AED response protocols.",
+      "question": "What's your current compliance visibility across all fulfillment centers?",
+      "linkedin_connect": "OSHA citation hit hard. Your safety team now faces audit exposure across all 500+ facilities. Logistics leaders we work with solved this in weeks. Let's talk?"
+    },
+    {
+      "account": "Walmart Inc.",
+      "buyer_title": "VP of Store Operations",
+      "email_subject": "Arkansas cardiac incident centralized AED response",
+      "context": "Retailers operating 4,000+ stores centralize AED location data to eliminate response time failures.",
+      "problem": "Cardiac incident at Arkansas store revealed 4,700 stores operate blind on AED location tracking.",
+      "question": "How are you currently tracking AED locations across all stores?",
+      "linkedin_connect": "Arkansas incident exposed a major blind spot across your portfolio. 4,700 stores without location visibility is a massive liability gap now. Major retailers solved this. Call?"
+    },
+    {
+      "account": "Cleveland Clinic",
+      "buyer_title": "Chief Medical Officer",
+      "email_subject": "Legacy AED fleet end-of-life replacement cycle",
+      "context": "Healthcare systems managing 170+ facilities upgrade to smart connected AED networks during replacement cycles.",
+      "problem": "Entire legacy AED fleet hits end-of-life across 170 facilities, modernization cycle now urgent.",
+      "question": "Are you integrating new AED devices with your incident command systems?",
+      "linkedin_connect": "Your fleet replacement cycle is happening now across all 170 facilities. Modern connected AED networks integrate with your hospital systems. Top health systems are doing this. Chat?"
+    },
+    {
+      "account": "Hyatt Hotels Corporation",
+      "buyer_title": "Chief Security Officer",
+      "email_subject": "Competitor connected AED deployment brand positioning",
+      "context": "Hotel brands deploying connected AED systems gain visible guest safety differentiation in market.",
+      "problem": "Competitor brand deployed connected AED system, 1,300 Hyatt properties now lose safety positioning.",
+      "question": "How are you positioning guest safety versus competitive hotel brands today?",
+      "linkedin_connect": "Competitor just deployed connected AED messaging across their properties. Your 1,300 locations need visible safety leadership now. Leading hotel brands are moving fast on this. Worth a call?"
+    },
+    {
+      "account": "General Motors",
+      "buyer_title": "Plant Facilities Manager",
+      "email_subject": "Detroit plant OSHA AED placement inspection",
+      "context": "Manufacturing networks with 40+ plants standardize AED placement to pass unannounced OSHA inspections.",
+      "problem": "OSHA unannounced inspection revealed scattered AED placement at Detroit, 48 plants face same exposure.",
+      "question": "How are you standardizing emergency response readiness across all plants?",
+      "linkedin_connect": "OSHA just hit Detroit hard on AED placement. Your 48 plants now face same inspection risk. Auto manufacturers we work with standardized this network-wide. Let's talk?"
+    },
+    {
+      "account": "University of Michigan",
+      "buyer_title": "Chief of Campus Safety",
+      "email_subject": "Student cardiac event campus AED visibility protocol",
+      "context": "Universities managing 50,000+ students deploy campus-wide AED tracking to reduce institutional liability.",
+      "problem": "Student cardiac event exposed unclear AED locations across three campuses, 50,000 students at risk.",
+      "question": "How are you managing AED visibility across all campus locations today?",
+      "linkedin_connect": "Recent student cardiac event exposed AED location gaps across campus. Your liability counsel will demand visibility protocol. Leading universities solved this with campus-wide tracking. Call?"
+    },
+    {
+      "account": "Target Corporation",
+      "buyer_title": "Senior Director of Loss Prevention",
+      "email_subject": "Regional incident response AED location failure",
+      "context": "Retailers managing 1,900+ stores use real-time AED readiness data to close emergency response gaps.",
+      "problem": "Regional incident response failed when teams couldn't locate nearest AED, 1,950 stores operating blind.",
+      "question": "What visibility do you have into AED readiness across all stores?",
+      "linkedin_connect": "Recent incident exposed your teams couldn't find the nearest AED fast enough. 1,950 stores without real-time visibility is a massive gap now. Leading retailers fixed this. Chat?"
+    },
+    {
+      "account": "Ford Motor Company",
+      "buyer_title": "Director of Plant Safety",
+      "email_subject": "Dearborn plant outdated AED fleet modernization",
+      "context": "Auto manufacturers with 30+ plants modernize AED infrastructure during facility expansion cycles.",
+      "problem": "Workplace incident at Dearborn plant hampered by outdated AED fleet, 30+ plants need modernization.",
+      "question": "How are you updating emergency response infrastructure across plant expansions?",
+      "linkedin_connect": "Dearborn incident exposed your outdated AED fleet became a response bottleneck. Plant expansion requires modernized safety infrastructure now. Auto leaders are deploying connected networks. Call?"
+    },
+    {
+      "account": "Hilton Worldwide",
+      "buyer_title": "Global Chief Security Officer",
+      "email_subject": "Guest safety incident industry scrutiny AED deployment",
+      "context": "Hotel brands deploying visible AED systems differentiate safety positioning during industry-wide security reviews.",
+      "problem": "Competitor incident triggered scrutiny, 6,800 Hilton properties vulnerable to brand safety positioning gap.",
+      "question": "How are you differentiating Hilton's guest safety positioning in market?",
+      "linkedin_connect": "Industry scrutiny just accelerated. Your 6,800 properties need visible safety upgrades to protect brand now. Leading hotel chains deployed connected AED systems already. Worth discussing?"
+    }
+  ],
+  "strategy": {
+    "first_30_days": [
+      "Call Amazon Safety Director Monday \u2014 OSHA citation creates 48-hour urgency window.",
+      "Email Marriott VP EHS Tuesday with incident response protocol audit framework.",
+      "LinkedIn message Walmart Loss Prevention Chief Wednesday \u2014 4,700 store liability exposure.",
+      "Phone Cleveland Clinic Facilities Director Thursday \u2014 fleet replacement cycle starts now.",
+      "Call Hyatt VP Safety Friday \u2014 competitor deployment threat accelerates decision timeline.",
+      "Email GM OSHA Compliance Lead Monday Week 2 \u2014 48-plant inspection risk.",
+      "Phone University of Michigan Risk Manager Tuesday \u2014 student safety liability angle.",
+      "Call Target Loss Prevention VP Wednesday \u2014 regional incident response failure documented.",
+      "Email Ford Facilities Director Thursday \u2014 plant expansion + outdated AED fleet.",
+      "LinkedIn Hilton VP Guest Safety Friday \u2014 industry-wide scrutiny momentum opportunity."
+    ],
+    "sequencing": {
+      "priority_accounts": [
+        "Amazon Warehouses",
+        "Marriott International",
+        "Walmart Inc."
+      ],
+      "why": "Active incidents + OSHA triggers = CFO budget approval within 30 days."
+    },
+    "channels": {
+      "primary": "phone",
+      "reasoning": "Incident-driven buyers need real voice, not email. Safety urgency demands live conversation."
+    },
+    "metrics": [
+      "Discovery calls booked: 8+",
+      "Trigger validation rate: 90%+",
+      "Decision-maker conversations: 6+",
+      "Pipeline value created: $500K+"
+    ],
+    "risks": [
+      "Buying committees stall \u2014 escalate to risk/liability counsel, not facilities.",
+      "Budget already locked for 2024 \u2014 reposition around compliance audit cycle.",
+      "Competitor already in conversation \u2014 lead with liability quantification, not features.",
+      "Safety Director hesitates \u2014 connect VP EHS to reference hospital system deployment."
+    ]
+  }
+}

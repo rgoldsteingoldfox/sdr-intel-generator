@@ -1,0 +1,50 @@
+{
+  "company": "Avive Solutions",
+  "icp": {
+    "company_types": [
+      "Fortune 2000 enterprises",
+      "Organizations with $1B+ revenue",
+      "Organizations with 2,000+ employees",
+      "Multi-location corporate campuses",
+      "Large hospitality and retail chains"
+    ],
+    "size": "2,000+ employees, $1B+ revenue, multi-site operations",
+    "industry": [
+      "Manufacturing",
+      "Hospitality / hotels",
+      "Retail chains",
+      "Corporate enterprises",
+      "Higher education",
+      "Healthcare systems"
+    ],
+    "use_cases": [
+      "Enterprise AED program deployment across locations",
+      "Connected AED response system for faster cardiac arrest response",
+      "AED lifecycle management and compliance tracking",
+      "Workplace safety and OSHA compliance for cardiac emergencies",
+      "Replacing outdated AED fleets with connected, modern devices"
+    ],
+    "pain_points": [
+      "AED programs are unmanaged — devices expire without anyone knowing",
+      "No visibility into AED readiness across distributed locations",
+      "Compliance gaps in workplace cardiac emergency preparedness",
+      "Legacy AEDs lack connectivity — no alerts, no tracking, no data",
+      "Cardiac arrest response times too slow due to AED location confusion"
+    ],
+    "buying_triggers": [
+      "Workplace cardiac event or near-miss incident",
+      "OSHA safety audit or compliance review",
+      "New EHS Director or VP of Safety hired",
+      "AED fleet approaching end-of-life / mass replacement cycle",
+      "Competitor or peer company deploying connected AED programs",
+      "Expansion to new facilities requiring AED coverage"
+    ],
+    "personas": [
+      "VP of Environment, Health & Safety (EHS)",
+      "Director of Workplace Safety",
+      "Head of Facilities / Facilities Director",
+      "Chief Security Officer",
+      "Risk Manager / VP of Risk"
+    ]
+  }
+}
