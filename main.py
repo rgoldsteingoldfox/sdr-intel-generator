@@ -23,6 +23,7 @@ from pathlib import Path
 from config import LATEST_JSON, OUTPUT_DIR
 from modules import company, accounts, triggers, outreach, strategy
 from modules.slug import slugify
+from modules.memory import record_run
 
 
 def run(company_name: str, role: str, description: str = "", icp_file: str = "") -> dict:
@@ -67,8 +68,13 @@ def run(company_name: str, role: str, description: str = "", icp_file: str = "")
     per_company_path = OUTPUT_DIR / f"{slug}.json"
     per_company_path.write_text(json.dumps(report, indent=2))
     LATEST_JSON.write_text(json.dumps(report, indent=2))
+
+    # Auto-update memory.json
+    top_names = [a.get("name", "") for a in sorted(accts, key=lambda a: -a.get("priority_score", 0))[:5]]
+    mem_entry = record_run(company_name, role, slug, icp_file or "description", top_names)
     print(f"\n✓ {per_company_path}")
     print(f"  ?company={slug}  (use as URL param on the Streamlit dashboard)")
+    print(f"  memory.json updated (run #{mem_entry.get('date', '')})")
     return report
 
 
