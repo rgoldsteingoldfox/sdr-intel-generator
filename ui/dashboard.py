@@ -186,12 +186,11 @@ st.markdown(
 )
 
 
-# ── Company switcher (only shown if multiple dashboards exist) ─────────────
+# ── Company switcher (only shown when no specific company is selected) ─────
 _all_companies = list_companies()
-if len(_all_companies) > 1:
+if len(_all_companies) > 1 and not active_slug:
     links = " · ".join(
-        (f"<b>{name}</b>" if slug == active_slug or (not active_slug and name == company) else
-         f"<a href='?company={slug}' target='_self' style='color:#94a3b8; text-decoration:none;'>{name}</a>")
+        f"<a href='?company={slug}' target='_self' style='color:#94a3b8; text-decoration:none;'>{name}</a>"
         for slug, name in _all_companies
     )
     st.markdown(
