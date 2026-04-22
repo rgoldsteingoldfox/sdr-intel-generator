@@ -1,0 +1,50 @@
+{
+  "company": "Aetos Imaging",
+  "icp": {
+    "company_types": [
+      "Large industrial manufacturers",
+      "Energy and utility companies",
+      "Chemical and packaging plants",
+      "Commercial real estate operators with complex facilities",
+      "Multi-site operations with aging infrastructure"
+    ],
+    "size": "1,000+ employees, multi-facility operations, significant maintenance budgets",
+    "industry": [
+      "Manufacturing",
+      "Energy & utilities",
+      "Chemical processing",
+      "Packaging",
+      "Commercial real estate"
+    ],
+    "use_cases": [
+      "3D digital twin scanning of complex facilities",
+      "Enterprise asset management and tracking",
+      "Maintenance work order visualization",
+      "Knowledge transfer from retiring veteran employees",
+      "Site-specific training for new hires using digital replicas",
+      "Predictive maintenance and IoT integration"
+    ],
+    "pain_points": [
+      "Veteran employees retiring with decades of facility knowledge — no way to capture it",
+      "Maintenance teams can't locate assets or visualize work orders in context",
+      "Training new hires on complex facilities is slow and inconsistent",
+      "No single source of truth for facility layout, assets, and SOPs",
+      "Outage planning and facility upgrades rely on outdated drawings and tribal knowledge"
+    ],
+    "buying_triggers": [
+      "Wave of retirements losing institutional knowledge",
+      "Major facility outage or maintenance failure",
+      "New plant manager or VP of Operations hired",
+      "Facility expansion or acquisition requiring documentation",
+      "Safety incident linked to poor asset visibility or training gaps",
+      "Digital transformation initiative from executive leadership"
+    ],
+    "personas": [
+      "VP of Operations",
+      "Director of Maintenance / Reliability",
+      "Plant Manager",
+      "VP of Facilities",
+      "Director of EHS (Environment, Health & Safety)"
+    ]
+  }
+}

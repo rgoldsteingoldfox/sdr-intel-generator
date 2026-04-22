@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "company": "Aetos Imaging",
+    "role": "Business Development Representative",
+    "generated_at": "2026-04-22T15:27:22.610737Z",
+    "grounding": "icp_file"
+  },
+  "profile": {
+    "company": "Aetos Imaging",
+    "icp": {
+      "company_types": [
+        "Large industrial manufacturers",
+        "Energy and utility companies",
+        "Chemical and packaging plants",
+        "Commercial real estate operators with complex facilities",
+        "Multi-site operations with aging infrastructure"
+      ],
+      "size": "1,000+ employees, multi-facility operations, significant maintenance budgets",
+      "industry": [
+        "Manufacturing",
+        "Energy & utilities",
+        "Chemical processing",
+        "Packaging",
+        "Commercial real estate"
+      ],
+      "use_cases": [
+        "3D digital twin scanning of complex facilities",
+        "Enterprise asset management and tracking",
+        "Maintenance work order visualization",
+        "Knowledge transfer from retiring veteran employees",
+        "Site-specific training for new hires using digital replicas",
+        "Predictive maintenance and IoT integration"
+      ],
+      "pain_points": [
+        "Veteran employees retiring with decades of facility knowledge \u2014 no way to capture it",
+        "Maintenance teams can't locate assets or visualize work orders in context",
+        "Training new hires on complex facilities is slow and inconsistent",
+        "No single source of truth for facility layout, assets, and SOPs",
+        "Outage planning and facility upgrades rely on outdated drawings and tribal knowledge"
+      ],
+      "buying_triggers": [
+        "Wave of retirements losing institutional knowledge",
+        "Major facility outage or maintenance failure",
+        "New plant manager or VP of Operations hired",
+        "Facility expansion or acquisition requiring documentation",
+        "Safety incident linked to poor asset visibility or training gaps",
+        "Digital transformation initiative from executive leadership"
+      ],
+      "personas": [
+        "VP of Operations",
+        "Director of Maintenance / Reliability",
+        "Plant Manager",
+        "VP of Facilities",
+        "Director of EHS (Environment, Health & Safety)"
+      ]
+    }
+  },
+  "accounts": [
+    {
+      "name": "DuPont de Nemours",
+      "industry": "Chemical processing",
+      "location": "Wilmington, DE",
+      "why_fit": "32 manufacturing plants, 40% workforce retiring in 5 years, critical SOP documentation gaps.",
+      "priority_score": 9
+    },
+    {
+      "name": "NextEra Energy",
+      "industry": "Energy & utilities",
+      "location": "Juno Beach, FL",
+      "why_fit": "150+ power generation facilities, aging asset inventory, major outage risk from knowledge loss.",
+      "priority_score": 9
+    },
+    {
+      "name": "Valero Energy",
+      "industry": "Chemical & refining",
+      "location": "San Antonio, TX",
+      "why_fit": "15 refineries, complex legacy systems, safety-critical maintenance requiring digital documentation.",
+      "priority_score": 9
+    },
+    {
+      "name": "Sealed Air Corporation",
+      "industry": "Packaging manufacturing",
+      "location": "Charlotte, NC",
+      "why_fit": "110+ production facilities worldwide, high turnover in maintenance, needs rapid onboarding system.",
+      "priority_score": 8
+    },
+    {
+      "name": "Holcim Ltd",
+      "industry": "Manufacturing & cement",
+      "location": "Colorado Springs, CO",
+      "why_fit": "70+ cement plants, aging infrastructure, multi-site asset tracking nightmare across regions.",
+      "priority_score": 8
+    },
+    {
+      "name": "Crown Holdings",
+      "industry": "Packaging manufacturing",
+      "location": "Yardley, PA",
+      "why_fit": "150+ plants, complex machinery documentation, training consistency issue for new hires.",
+      "priority_score": 8
+    },
+    {
+      "name": "Brookfield Infrastructure",
+      "industry": "Real estate & utilities",
+      "location": "Toronto, ON",
+      "why_fit": "500+ commercial facilities, recent acquisitions need rapid asset documentation and integration.",
+      "priority_score": 7
+    },
+    {
+      "name": "Eastman Chemical",
+      "industry": "Chemical processing",
+      "location": "Kingsport, TN",
+      "why_fit": "14 major production sites, technical expertise loss from retirements, SOP capture urgency.",
+      "priority_score": 7
+    },
+    {
+      "name": "Xylem Inc",
+      "industry": "Industrial manufacturing",
+      "location": "Rexford, NY",
+      "why_fit": "40+ facilities, water & wastewater systems need maintenance visibility and knowledge transfer.",
+      "priority_score": 6
+    },
+    {
+      "name": "Flowserve Corporation",
+      "industry": "Industrial manufacturing",
+      "location": "Irving, TX",
+      "why_fit": "50+ global plants, complex pump/valve manufacturing needs digital maintenance work order integration.",
+      "priority_score": 6
+    }
+  ],
+  "triggers": [
+    {
+      "account": "DuPont de Nemours",
+      "trigger_event": "Safety incident at Wilmington plant, 32-site documentation gap exposed",
+      "why_now": "OSHA audit cycle closing, compliance deadline Q2",
+      "why_it_matters": "Plant managers need unified SOP capture before retirements accelerate"
+    },
+    {
+      "account": "NextEra Energy",
+      "trigger_event": "Grid outage traced to knowledge loss at Florida facility",
+      "why_now": "FERC investigation demands root cause documentation within 90 days",
+      "why_it_matters": "150+ facilities need asset intelligence system before next incident"
+    },
+    {
+      "account": "Valero Energy",
+      "trigger_event": "Maintenance error at San Antonio refinery, safety-critical procedures undocumented",
+      "why_now": "EPA enforcement letter, compliance plan due next month",
+      "why_it_matters": "15 refineries require digital maintenance visibility immediately"
+    },
+    {
+      "account": "Sealed Air Corporation",
+      "trigger_event": "Turnover spike in maintenance teams across 110+ facilities",
+      "why_now": "New hires failing safety certification, training backlog building now",
+      "why_it_matters": "Production teams need rapid onboarding and knowledge transfer system"
+    },
+    {
+      "account": "Holcim Ltd",
+      "trigger_event": "Asset tracking failure across 70 cement plants in audit",
+      "why_now": "Q1 financial review flagged $2M in unaccounted equipment",
+      "why_it_matters": "Regional ops need unified asset documentation across all sites"
+    },
+    {
+      "account": "Crown Holdings",
+      "trigger_event": "Quality incident at Pennsylvania facility tied to procedure inconsistency",
+      "why_now": "Customer complaints escalating, corrective action plan due this quarter",
+      "why_it_matters": "150+ plants need standardized training and documentation system"
+    },
+    {
+      "account": "Brookfield Infrastructure",
+      "trigger_event": "Acquisition integration failing, asset inventory across 500 facilities incomplete",
+      "why_now": "Board review next month, integration lag impacting synergy targets",
+      "why_it_matters": "Operations teams need rapid asset documentation and visibility system"
+    },
+    {
+      "account": "Eastman Chemical",
+      "trigger_event": "Retirement wave at Kingsport site, critical procedures not documented",
+      "why_now": "14 production sites losing expertise this fiscal year",
+      "why_it_matters": "Technical teams need urgent SOP capture and knowledge preservation"
+    },
+    {
+      "account": "Xylem Inc",
+      "trigger_event": "Maintenance visibility gap across wastewater facilities causing service delays",
+      "why_now": "Client complaints building, contract renewal at risk next quarter",
+      "why_it_matters": "40+ facilities need unified maintenance work order and asset system"
+    },
+    {
+      "account": "Flowserve Corporation",
+      "trigger_event": "Manufacturing defect at Texas plant traced to procedure drift",
+      "why_now": "Quality audit underway, corrective action required by end of quarter",
+      "why_it_matters": "50+ global plants need digital maintenance integration and documentation"
+    }
+  ],
+  "outreach": [
+    {
+      "account": "DuPont de Nemours",
+      "buyer_title": "Plant Operations Manager",
+      "email_subject": "Wilmington safety gap before OSHA audit",
+      "context": "Chemical manufacturers with 20+ sites capture SOPs before compliance audits hit.",
+      "problem": "32-site documentation gap exposed at Wilmington. OSHA deadline Q2 \u2014 plant managers need unified SOP capture now.",
+      "question": "How are you documenting critical procedures across all sites today?",
+      "linkedin_connect": "Saw the Wilmington safety incident. Most plants in your position use centralized SOP capture before OSHA audits close. Worth a quick call?"
+    },
+    {
+      "account": "NextEra Energy",
+      "buyer_title": "Facility Operations Director",
+      "email_subject": "Florida grid outage root cause documentation",
+      "context": "Utilities managing 100+ facilities document asset intelligence before FERC investigations conclude.",
+      "problem": "Grid outage traced to knowledge loss at Florida facility. FERC investigation demands root cause documentation within 90 days.",
+      "question": "How are you capturing asset intelligence across 150 facilities today?",
+      "linkedin_connect": "FERC investigation on the Florida grid outage. Your ops team needs asset documentation urgency now. Let's talk this week?"
+    },
+    {
+      "account": "Valero Energy",
+      "buyer_title": "Refinery Operations Manager",
+      "email_subject": "San Antonio maintenance procedure compliance letter",
+      "context": "Refineries document safety-critical procedures before EPA enforcement letters become audit failures.",
+      "problem": "Maintenance error at San Antonio refinery left procedures undocumented. EPA enforcement letter \u2014 compliance plan due next month.",
+      "question": "How are 15 refineries standardizing maintenance documentation today?",
+      "linkedin_connect": "EPA enforcement letter on the San Antonio incident. Your maintenance teams need digital procedure capture now. Available this week?"
+    },
+    {
+      "account": "Sealed Air Corporation",
+      "buyer_title": "Regional Maintenance Director",
+      "email_subject": "Maintenance team turnover safety certification gap",
+      "context": "Packaging manufacturers with 50+ facilities accelerate onboarding when retention spikes hurt training.",
+      "problem": "Turnover spike across 110 facilities. New hires failing safety certification \u2014 training backlog building now.",
+      "question": "How are you scaling knowledge transfer across new maintenance hires today?",
+      "linkedin_connect": "Maintenance turnover hitting your facilities hard. New hires need rapid safety certification and SOP access now. Can we connect?"
+    },
+    {
+      "account": "Holcim Ltd",
+      "buyer_title": "Regional Operations Director",
+      "email_subject": "Cement plant asset tracking audit gap",
+      "context": "Cement operators use unified asset documentation after Q1 audits flag equipment accountability issues.",
+      "problem": "Asset tracking failure across 70 plants in audit. Q1 review flagged $2M in unaccounted equipment.",
+      "question": "How are you documenting assets across regional cement plants today?",
+      "linkedin_connect": "Q1 audit exposed $2M in untracked equipment across your plants. Regional ops needs unified asset documentation now. Worth discussing?"
+    },
+    {
+      "account": "Crown Holdings",
+      "buyer_title": "Quality Assurance Manager",
+      "email_subject": "Pennsylvania quality incident procedure inconsistency",
+      "context": "Packaging manufacturers document procedures after quality incidents reveal training gaps across facilities.",
+      "problem": "Quality incident at Pennsylvania facility tied to procedure inconsistency. Customer complaints escalating \u2014 corrective action plan due this quarter.",
+      "question": "How are you standardizing procedures across 150 plants today?",
+      "linkedin_connect": "Pennsylvania quality incident tied to procedure drift. Your 150 plants need standardized training and documentation now. Let's talk this week?"
+    },
+    {
+      "account": "Brookfield Infrastructure",
+      "buyer_title": "Operations Integration Lead",
+      "email_subject": "Post-acquisition asset inventory completion deadline",
+      "context": "Infrastructure operators complete asset inventories after acquisitions to unlock integration targets.",
+      "problem": "Acquisition integration failing \u2014 asset inventory across 500 facilities incomplete. Board review next month, integration lag impacting targets.",
+      "question": "How are you documenting assets across 500 facilities post-acquisition today?",
+      "linkedin_connect": "Your acquisition integration is hitting asset documentation walls. 500 facilities need rapid inventory visibility before board review. Available this week?"
+    },
+    {
+      "account": "Eastman Chemical",
+      "buyer_title": "Plant Manager",
+      "email_subject": "Kingsport expertise retirement SOP capture urgency",
+      "context": "Chemical manufacturers capture SOPs when retirement waves expose undocumented critical procedures.",
+      "problem": "Retirement wave at Kingsport site \u2014 critical procedures not documented. 14 production sites losing expertise this fiscal year.",
+      "question": "How are you preserving technical knowledge before retirements accelerate?",
+      "linkedin_connect": "Kingsport retirement wave hitting your production teams now. Critical SOPs need urgent capture before expertise walks out. Can we connect?"
+    },
+    {
+      "account": "Xylem Inc",
+      "buyer_title": "Facilities Operations Manager",
+      "email_subject": "Wastewater facility maintenance visibility contract risk",
+      "context": "Water operators implement unified maintenance systems when service delays drive contract renewal risk.",
+      "problem": "Maintenance visibility gap across wastewater facilities causing service delays. Client complaints building \u2014 contract renewal at risk next quarter.",
+      "question": "How are you standardizing maintenance visibility across 40 facilities today?",
+      "linkedin_connect": "Your wastewater contract renewals at risk from maintenance visibility gaps. 40 facilities need unified work order system now. Worth a call?"
+    },
+    {
+      "account": "Flowserve Corporation",
+      "buyer_title": "Manufacturing Operations Director",
+      "email_subject": "Texas plant procedure drift quality audit",
+      "context": "Industrial manufacturers document procedures after defects reveal process drift across global plants.",
+      "problem": "Manufacturing defect at Texas plant traced to procedure drift. Quality audit underway \u2014 corrective action required by quarter end.",
+      "question": "How are you preventing procedure drift across 50 global plants today?",
+      "linkedin_connect": "Texas quality defect exposed procedure drift across your plants. 50 facilities need digital maintenance integration now. Let's discuss this week?"
+    }
+  ],
+  "strategy": {
+    "first_30_days": [
+      "Call DuPont Wilmington plant manager Monday morning, reference OSHA audit deadline.",
+      "Email NextEra compliance officer Friday with FERC timeline context, request call.",
+      "LinkedIn message Valero VP Ops: EPA letter, 90-day compliance window.",
+      "Phone Sealed Air facilities director, mention training backlog and new hire failures.",
+      "Research Holcim regional ops contacts, prepare asset tracking audit data.",
+      "Call Crown Holdings plant manager, lead with quality incident corrective action.",
+      "Email Brookfield integration lead, offer asset documentation for acquisition completion.",
+      "Phone Eastman Chemical Kingsport site lead, emphasize retirement wave timeline.",
+      "LinkedIn Xylem maintenance director, reference wastewater contract renewal risk.",
+      "Call Flowserve quality lead, tie procedure documentation to manufacturing defect root cause."
+    ],
+    "sequencing": {
+      "priority_accounts": [
+        "DuPont de Nemours",
+        "NextEra Energy",
+        "Valero Energy"
+      ],
+      "why": "Active compliance deadlines and safety incidents create immediate budget authority and 30-60 day buying cycles."
+    },
+    "channels": {
+      "primary": "phone",
+      "reasoning": "Compliance deadlines demand real-time conversation; email alone gets buried in legal/ops queues."
+    },
+    "metrics": [
+      "Calls completed daily per account list",
+      "Qualified conversations with maintenance VPs or plant managers",
+      "Meetings booked with budget owners in days 8-15",
+      "Pipeline value from accounts with active compliance triggers"
+    ],
+    "risks": [
+      "Legal/compliance teams may gate executive access until audit closes.",
+      "Facility managers fear product pilots delay compliance remediation timelines.",
+      "Acquisition integrations pause all non-critical vendor conversations mid-quarter."
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-21T00:00:00Z",
-  "total_runs": 3,
+  "last_updated": "2026-04-22T15:27:22.613624Z",
+  "total_runs": 4,
   "runs": [
     {
       "company": "Ontic",
@@ -9,9 +9,15 @@
       "icp_file": "examples/ontic_icp.json",
       "slug": "ontic",
       "dashboard_url": "https://sdr-intel-generator-v67rwrtespbdmjq9audq28.streamlit.app/?company=ontic",
-      "top_accounts": ["Walmart Inc.", "Target Corporation", "Home Depot", "Ford Motor Company", "Johnson & Johnson"],
+      "top_accounts": [
+        "Walmart Inc.",
+        "Target Corporation",
+        "Home Depot",
+        "Ford Motor Company",
+        "Johnson & Johnson"
+      ],
       "application_status": "applied",
-      "notes": "Strongest fit — same corporate security buyer as SoundThinking. Dashboard sent to Meaghan Hurley via LinkedIn."
+      "notes": "Strongest fit \u2014 same corporate security buyer as SoundThinking. Dashboard sent to Meaghan Hurley via LinkedIn."
     },
     {
       "company": "Ping Identity",
@@ -20,7 +26,13 @@
       "icp_file": "examples/ping-identity_icp.json",
       "slug": "ping-identity",
       "dashboard_url": "https://sdr-intel-generator-v67rwrtespbdmjq9audq28.streamlit.app/?company=ping-identity",
-      "top_accounts": ["JPMorgan Chase", "UnitedHealth Group", "General Dynamics", "Bank of America", "CVS Health"],
+      "top_accounts": [
+        "JPMorgan Chase",
+        "UnitedHealth Group",
+        "General Dynamics",
+        "Bank of America",
+        "CVS Health"
+      ],
       "application_status": "applied",
       "notes": "IAM/identity security. Adjacent to SoundThinking security background. Applied via Greenhouse."
     },
@@ -31,51 +43,146 @@
       "icp_file": "examples/avive-solutions_icp.json",
       "slug": "avive-solutions",
       "dashboard_url": "https://sdr-intel-generator-v67rwrtespbdmjq9audq28.streamlit.app/?company=avive-solutions",
-      "top_accounts": ["Marriott International", "Amazon Warehouses", "Walmart Inc.", "Cleveland Clinic", "Hyatt Hotels"],
+      "top_accounts": [
+        "Marriott International",
+        "Amazon Warehouses",
+        "Walmart Inc.",
+        "Cleveland Clinic",
+        "Hyatt Hotels"
+      ],
       "application_status": "applied",
       "notes": "AED/defibrillator company. Public safety overlap with SoundThinking. $120K OTE. Applied via Lever."
+    },
+    {
+      "company": "Aetos Imaging",
+      "role": "Business Development Representative",
+      "date": "2026-04-22",
+      "icp_file": "examples/aetos-imaging_icp.json",
+      "slug": "aetos-imaging",
+      "dashboard_url": "https://sdr-intel-generator-v67rwrtespbdmjq9audq28.streamlit.app/?company=aetos-imaging",
+      "top_accounts": [
+        "DuPont de Nemours",
+        "NextEra Energy",
+        "Valero Energy",
+        "Sealed Air Corporation",
+        "Holcim Ltd"
+      ],
+      "application_status": "generated",
+      "notes": ""
     }
   ],
   "application_tracker": {
     "interviews": [
-      {"company": "magentIQ", "role": "SDR", "status": "positive_response"},
-      {"company": "AutoLeap", "role": "SDR", "status": "active_interview"},
-      {"company": "Second Nature", "role": "SDR", "status": "positive_response"}
+      {
+        "company": "magentIQ",
+        "role": "SDR",
+        "status": "positive_response"
+      },
+      {
+        "company": "AutoLeap",
+        "role": "SDR",
+        "status": "active_interview"
+      },
+      {
+        "company": "Second Nature",
+        "role": "SDR",
+        "status": "positive_response"
+      }
     ],
     "rejections": [
-      {"company": "Epignosis", "role": "Outbound SDR"},
-      {"company": "Articulate", "role": "Commercial AE"},
-      {"company": "OpenGov", "role": "SDR Atlanta"},
-      {"company": "Replicant", "role": "SDR"},
-      {"company": "Peek", "role": "SMB AE"},
-      {"company": "Steer", "role": "AE Remote"},
-      {"company": "Enable Inc.", "role": "Sr. BDR"},
-      {"company": "Steno", "role": "SDR"}
+      {
+        "company": "Epignosis",
+        "role": "Outbound SDR"
+      },
+      {
+        "company": "Articulate",
+        "role": "Commercial AE"
+      },
+      {
+        "company": "OpenGov",
+        "role": "SDR Atlanta"
+      },
+      {
+        "company": "Replicant",
+        "role": "SDR"
+      },
+      {
+        "company": "Peek",
+        "role": "SMB AE"
+      },
+      {
+        "company": "Steer",
+        "role": "AE Remote"
+      },
+      {
+        "company": "Enable Inc.",
+        "role": "Sr. BDR"
+      },
+      {
+        "company": "Steno",
+        "role": "SDR"
+      }
     ],
     "waiting": [
-      {"company": "Avive", "role": "Enterprise SDR"},
-      {"company": "AltaClaro", "role": "Enterprise BDR"},
-      {"company": "TCP Software", "role": "Growth AE"},
-      {"company": "Phreesia", "role": "SDR"},
-      {"company": "3Play Media", "role": "unknown"},
-      {"company": "Ping Identity", "role": "SDR"},
-      {"company": "QuinStreet", "role": "Sales"},
-      {"company": "Redcar", "role": "Founding SDR"},
-      {"company": "Acoustic", "role": "Enterprise SDR"},
-      {"company": "OpenGov", "role": "SDR"},
-      {"company": "Ontic", "role": "Senior SDR"},
-      {"company": "Instrumentl", "role": "Inbound SDR"}
+      {
+        "company": "Avive",
+        "role": "Enterprise SDR"
+      },
+      {
+        "company": "AltaClaro",
+        "role": "Enterprise BDR"
+      },
+      {
+        "company": "TCP Software",
+        "role": "Growth AE"
+      },
+      {
+        "company": "Phreesia",
+        "role": "SDR"
+      },
+      {
+        "company": "3Play Media",
+        "role": "unknown"
+      },
+      {
+        "company": "Ping Identity",
+        "role": "SDR"
+      },
+      {
+        "company": "QuinStreet",
+        "role": "Sales"
+      },
+      {
+        "company": "Redcar",
+        "role": "Founding SDR"
+      },
+      {
+        "company": "Acoustic",
+        "role": "Enterprise SDR"
+      },
+      {
+        "company": "OpenGov",
+        "role": "SDR"
+      },
+      {
+        "company": "Ontic",
+        "role": "Senior SDR"
+      },
+      {
+        "company": "Instrumentl",
+        "role": "Inbound SDR"
+      }
     ]
   },
   "patterns": {
-    "strongest_verticals": "Public safety, security, government — direct SoundThinking overlap gets highest response rates",
+    "strongest_verticals": "Public safety, security, government \u2014 direct SoundThinking overlap gets highest response rates",
     "best_positioning": "Lead with SoundThinking government/SLED experience + 128% quota for public sector roles",
-    "dashboard_impact": "Dashboard as portfolio piece differentiates from other candidates — used for Ontic (LinkedIn send), Ping Identity, Avive",
+    "dashboard_impact": "Dashboard as portfolio piece differentiates from other candidates \u2014 used for Ontic (LinkedIn send), Ping Identity, Avive",
     "resume_variants": {
-      "sdr": "~/output/resume_BASE.md — outbound-focused, leads with SoundThinking",
-      "ae": "~/output/resume_AE.md — closing-focused, leads with Sidetick #1 AE, $3.6M ARR"
+      "sdr": "~/output/resume_BASE.md \u2014 outbound-focused, leads with SoundThinking",
+      "ae": "~/output/resume_AE.md \u2014 closing-focused, leads with Sidetick #1 AE, $3.6M ARR"
     },
-    "rejection_patterns": "AE roles (Articulate, Peek, Steer) rejected more often than SDR roles — stick to SDR targeting",
-    "icp_required": "Never let LLM infer company ICP — always provide --icp-file. Claude hallucinated Ontic as a government OSINT tool without grounding."
+    "rejection_patterns": "AE roles (Articulate, Peek, Steer) rejected more often than SDR roles \u2014 stick to SDR targeting",
+    "icp_required": "Never let LLM infer company ICP \u2014 always provide --icp-file. Claude hallucinated Ontic as a government OSINT tool without grounding."
   }
 }
